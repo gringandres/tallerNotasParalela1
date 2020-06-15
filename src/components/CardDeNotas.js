@@ -16,7 +16,12 @@ function CardDeNotas({
     <>
       <div className="max-w-xl rounded overflow-hidden shadow-2xl ml-8 w-1/2">
         <div className="px-6 py-4 ">
-          <div className="font-bold text-xl text-center mb-2">NOTAS</div>
+          <div className="font-bold text-xl text-center mb-2">
+            NOTAS{" "}
+            <span role="img" aria-label="script">
+              📜
+            </span>
+          </div>
           <form className="w-full max-w-sm" onSubmit={onSubmit}>
             <div className="md:flex md:items-center mb-6">
               <div className="md:w-1/3">

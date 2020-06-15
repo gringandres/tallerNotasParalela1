@@ -22,7 +22,7 @@ function FiltroNotas({
             <input
               className={INPUT_BUSCAR}
               type="text"
-              placeholder="Documento"
+              placeholder="🔍 Documento"
               onChange={(e) => onHandler(e)}
               value={buscarEstudiante}
             />
