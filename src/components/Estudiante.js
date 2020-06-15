@@ -6,7 +6,7 @@ function Estudiante({ nombre, definitiva }) {
       <tr className="bg-gray-100">
         <td class="border px-4 py-2">{nombre}</td>
         <td class="border px-4 py-2">{definitiva}</td>
-        <td class="border px-4 py-2">{definitiva > 3 ? "Gano" : "Perdio"}</td>
+        <td class="border px-4 py-2">{definitiva >= 3 ? "Gano" : "Perdio"}</td>
       </tr>
     </>
   );
